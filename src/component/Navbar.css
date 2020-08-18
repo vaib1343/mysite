@@ -1,0 +1,11 @@
+.navbar{
+    background-color: white !important;
+    font-family: 'Mulish', sans-serif;
+}
+.navbar-brand{
+    color: #5e36ff !important;
+}
+.active_nav{
+    color: #5e36ff !important;
+    border-bottom: 1px solid #5e36ff !important;
+}

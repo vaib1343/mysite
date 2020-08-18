@@ -1,0 +1,15 @@
+.card_main{
+    margin-top: 20px;
+    display: inline-block;
+
+}
+.card{
+    margin: 20px 10px;
+}
+.btn{
+    background-color: #5e36ff !important;
+    
+}
+h5{
+    text-decoration: none;
+}

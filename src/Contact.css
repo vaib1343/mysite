@@ -1,0 +1,26 @@
+.icon{
+    font-size: 30px;
+    margin-top: 20px;
+}
+.header-img{
+    text-align: right;
+}
+#header .animated{
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+@-webkit-keyframes up-down{
+    0%{
+        transform: translate(10px);
+    }
+    100%{
+        transform: translate(-10px);
+    }
+}
+@keyframes up-down{
+    0%{
+        transform: translate(10px);
+    }
+    100%{
+        transform: translate(-10px);
+    }
+}
