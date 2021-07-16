@@ -13,11 +13,28 @@ const Common =(props)=>{
     <h1>
     {props.text}
     <br/>
-    <strong className='brand_name'> VAIB TECH</strong>
+    {
+        props.HomeText && 
+    <strong className='brand_name'> Vaibhav.. </strong>
+    }
+    {
+        props.AboutText && 
+    <strong className='brand_name'> ABOUT ME </strong>
+    }
     </h1>
+    {
+        props.HomeText&&
     <h2 className='my-3'>
-        We are the team of talented developers
+       a Software Developer
     </h2>
+    }
+    {
+        props.AboutText &&
+        <h2 className='my-3'>
+      Highly motivated and self taught junior software developer , I have been working on some latest technology like React JS , Node JS, GraphQL.
+      Being curious and enthusiastic I like to resolve the problems by implementing my tech knowledge.
+    </h2>
+    }
     <div className='mt-3'>
     <a href={props.link} className='btn-get-started'>
         {props.buttn}
