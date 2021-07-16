@@ -13,7 +13,7 @@ const Navbar=()=>{
                 
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
   <div className="container-fluid">
-    <NavLink className="navbar-brand" to='/'>VAIBHAV</NavLink>
+    <NavLink className="navbar-brand" to='/'>Portfolio</NavLink>
     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
@@ -26,7 +26,7 @@ const Navbar=()=>{
           <NavLink exact activeClassName='active_nav' className="nav-link" to="/about">About</NavLink>
         </li>
         <li className="nav-item">
-          <NavLink exact activeClassName='active_nav' className="nav-link" to="/service">Service</NavLink>
+          <NavLink exact activeClassName='active_nav' className="nav-link" to="/service">Project</NavLink>
         </li>
         <li className="nav-item">
           <NavLink exact activeClassName='active_nav' className="nav-link" to="/contact">Contact</NavLink>
