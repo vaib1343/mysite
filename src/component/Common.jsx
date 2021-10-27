@@ -1,6 +1,7 @@
 import React from "react";
 import "./Common.css";
 import webs from "../image/headerimage.jpg";
+import { Link } from "react-router-dom";
 
 const Common = (props) => {
   return (
@@ -33,9 +34,9 @@ const Common = (props) => {
                     </h2>
                   )}
                   <div className="mt-3">
-                    <a href={props.link} className="btn-get-started">
+                    <Link to={props.link} className="btn-get-started">
                       {props.buttn}
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 <div className="col-lg-6 order-1 order-lg-2 header-img">
