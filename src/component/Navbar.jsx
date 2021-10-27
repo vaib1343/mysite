@@ -10,7 +10,7 @@ const Navbar = () => {
                     <div className="col-sm-10 mx-auto">
                         <nav className="navbar navbar-expand-lg navbar-light bg-light">
                             <div className="container-fluid">
-                                <NavLink className="navbar-brand" to="/mysite">
+                                <NavLink className="navbar-brand" to="/">
                                     Portfolio
                                 </NavLink>
                                 <button
@@ -34,7 +34,7 @@ const Navbar = () => {
                                                 exact
                                                 activeClassName="active_nav"
                                                 className="nav-link"
-                                                to="/mysite"
+                                                to="/"
                                             >
                                                 Home
                                             </NavLink>
@@ -44,7 +44,7 @@ const Navbar = () => {
                                                 exact
                                                 activeClassName="active_nav"
                                                 className="nav-link"
-                                                to="/mysite/about"
+                                                to="/about"
                                             >
                                                 About
                                             </NavLink>
@@ -54,7 +54,7 @@ const Navbar = () => {
                                                 exact
                                                 activeClassName="active_nav"
                                                 className="nav-link"
-                                                to="/mysite/service"
+                                                to="/service"
                                             >
                                                 Project
                                             </NavLink>
@@ -64,7 +64,7 @@ const Navbar = () => {
                                                 exact
                                                 activeClassName="active_nav"
                                                 className="nav-link"
-                                                to="/mysite/contact"
+                                                to="/contact"
                                             >
                                                 Contact
                                             </NavLink>

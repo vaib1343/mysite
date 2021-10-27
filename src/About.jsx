@@ -9,7 +9,7 @@ const About = () => {
         AboutText={true}
         buttn="Contact Now"
         imag={webs}
-        link="/mysite/contact"
+        link="/contact"
       />
     </>
   );

@@ -11,7 +11,7 @@ const Home = () => {
         buttn="About me"
         imag={webs}
         HomeText={true}
-        link={"/mysite/about"}
+        link={"/about"}
       />
     </>
   );
