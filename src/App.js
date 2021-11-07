@@ -19,7 +19,7 @@ function App() {
                 <Route exact path="/contact" component={Contact} />
                 <Route exact path="/about" component={About} />
                 <Route exact path="/service" component={Service} />
-                {/* <Redirect to="/mysite" /> */}
+                <Redirect to="/" />
             </Switch>
         </>
     );
